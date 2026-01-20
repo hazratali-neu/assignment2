@@ -310,8 +310,6 @@ hr {
 
 .img-div {
     display: flex;
-    /* gap: 7px;
-    margin-top: 20px; */
 }
 
 .alex-container {
@@ -400,15 +398,17 @@ footer {
 
 }
 
-/* .menu-hide{
-  display: none;
-} */
-/* .hide {
-    display: none;
-} */
+
 .menu-icon {
     display: none;
 }
+/* Microphone floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
 
 @media screen and (max-width:576px) {
 
